@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+# Section Intro
+--------------------------------------------------------------*/
+.section-header .section-title {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 400;
+}
+
+#intro {
+  width: 100%;
+  height: 60vh;
+  background: url("../img/mentions/bg-mentions.png") center top no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  position: relative;
+}
+
+#intro .intro-text {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  right: 0;
+  height: calc(50% - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#intro h1 {
+  margin: 30px 0 10px 0;
+  padding: 0 15px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media (max-width: 770px) {
+  #intro h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #intro {
+  background-attachment: inherit;
+  height: 40vh;
+}
+
+#intro .intro-text {
+  top: 125px;
+}
+}
+
+hr {
+    height: 2px;
+    border: 1px solid white;
+    background-color: white;
+    width: 250px;
+}
+
+/*--------------------------------------------------------------
+# main
+--------------------------------------------------------------*/
+.mentionsLeg {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.mentionsLeg h2 {
+    color: black;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #fff;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+#footer .credits {
+  font-size: 13px;
+  color: #888;
+}
+
+#footer .footer-links a {
+  color: #666;
+  padding-left: 15px;
+}
+
+#footer .footer-links a:first-child {
+  padding-left: 0;
+}
+
+#footer .footer-links a:hover {
+  color: #f2764a;
+}
+
+#footer i {
+    font-size: 32px;
+    color: #f2764a;
+}
+
+#footer h5{ 
+	color:#f2674a; 
+	font-size:16px; 
+	font-weight:450; 
+	margin-bottom: 10px;
+  padding-left: 15px;
+} 
+
+@media (max-width: 991px) {
+
+#footer h5 {
+  display: none;
+}
+}
